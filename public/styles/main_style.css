@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+html * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+/*body selector
+dody {
+	background-color: lightgrey;
+}
+
+/*header selector*/
+header {
+	width: 100%;
+	top: 0px;
+	padding: 1.5em;
+	position: absolute;
+	display: flex;
+	flex-flow: column wrap;
+	background-color: ghostwhite;
+	
+}
+
+nav {
+	width: 30%;
+	display: flex !important;
+	position: relative;
+	float: left;
+	flex-flow: column wrap;
+	background-color: lightgrey;
+	top: 0;
+	left: 0;
+	text-align: left;
+	
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 8.5em;
+	letter-spacing: 0.85em;
+	color: black;
+}
+
+.hero {
+  	position: relative;
+  	height: 54vw;
+  	background-color: deepskyblue;
+}
+
+.intro {
+  position: relative;
+  color: #343144;
+  background: #fff;
+  height: 30vw;
+  padding: 9em 6em 5em;
+}
+
+.intro p {
+	font-family: 'acumin-pro-extra-condensed', sans-serif;
+	color: #343144;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	line-height: 1.8;
+	letter-spacing: .325em;
+}
+
+.projects {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.project {
+  display: flex;
+}
+
+.project .project-content {
+  padding: 8% 0 8% 23.5%;
+  background-image:-moz-linear-gradient( 135deg, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
+  background-image: -webkit-linear-gradient( 135deg, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
+  background-image: -ms-linear-gradient( 135deg, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
+  width: 50%;
+}
+
+.project figure {
+	position: relative;
+  	vertical-align: middle;
+  	padding: 50% 10%;
+  	background: #cef0f2;
+}
+
+.project .project-description {
+  	background: #26223e;
+  	width: 50%;
+  	padding: 11.25em 10em 11.5em;
+}
+
+footer {
+  margin-top: -3em;
+  padding: 8.75em 0 2em;
+  height: 10vw;
+  background-image:-moz-linear-gradient( -45deg, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
+  background-image: -webkit-linear-gradient( -45deg, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
+  background-image: -ms-linear-gradient( -45deg, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
+}
+
+
+.footer-credit {
+	float: right;
+	width: 40%;
+	text-align: right;
+	position: relative;
+}
+
+.footer-disclaimer {
+	float: left;
+	width: 60%;
+	position: relative;
+}
+.bio {
+	width: 100%;
+	position: relative;
+}
+
+
+input[type=text], select, textarea {
+  width: 40%; /*width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2em; /* Add a top margin */
+  margin-bottom: 0.5em; /* Bottom margin */
+  resize: none/* No resizing the textarea*/
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: dodgerblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: deepskyblue;
+}
+
+.banner-text {
+	width: 404px;
+	height: 76px;
+	background-color: ghostwhite;
+	border: 5px solid rgb(0,0,0,1);
+	border-radius: 0;
+}
+
+
+

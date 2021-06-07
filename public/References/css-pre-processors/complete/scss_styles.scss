@@ -1,0 +1,45 @@
+$primary-color: #fff;
+
+.hero {
+color: $primary-color;
+}
+footer {
+color: $primary-color;
+}
+
+.site-nav {
+	ul {
+		list-style-type: none;
+		li {
+			margin-bottom: 3.75em;
+			a {
+			font-size: 1.15em;
+			text-decoration: none;
+			letter-spacing: 0.15em;
+			text-transform: uppercase;
+			-webkit-transition: color .3s;
+			transition: color .3s;
+			color: $primary-color;
+			}
+	
+		}
+	}
+}
+
+@mixin gradient ($gradient-color1, $gradient-color2) {
+  background-image:-moz-linear-gradient( 125deg, ($gradient-color1) 0%, ($gradient-color2) 100%);
+  background-image: -webkit-linear-gradient( 125deg, ($gradient-color1) 0%, ($gradient-color2) 100%);
+  background-image: -ms-linear-gradient( 125deg, ($gradient-color1) 0%, ($gradient-color2) 100%);
+}
+
+.artwork-1 .artwork-description {
+	@include gradient(rgb(255,180,170), rgb(208,42,194))
+}
+
+.artwork-3 .artwork-piece {
+	@include gradient(rgb(160,55,220), rgb(83,200,234))
+}
+
+footer {
+	@include gradient(rgb(255,91,127), rgb(255,213,86))
+}

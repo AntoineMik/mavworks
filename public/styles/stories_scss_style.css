@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.nav {
+    width: 35%;
+}
+
+
+
+.top-search {
+    width: 65%;
+    align-self: flex-end;
+    float: right;
+    margin-top: 10px;
+}

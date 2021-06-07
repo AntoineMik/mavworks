@@ -1,0 +1,33 @@
+.hero {
+  color: #fff; }
+
+footer {
+  color: #fff; }
+
+.site-nav ul {
+  list-style-type: none; }
+  .site-nav ul li {
+    margin-bottom: 3.75em; }
+    .site-nav ul li a {
+      font-size: 1.15em;
+      text-decoration: none;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      -webkit-transition: color .3s;
+      transition: color .3s;
+      color: #fff; }
+
+.artwork-1 .artwork-description {
+  background-image: -moz-linear-gradient(125deg, #ffb4aa 0%, #d02ac2 100%);
+  background-image: -webkit-linear-gradient(125deg, #ffb4aa 0%, #d02ac2 100%);
+  background-image: -ms-linear-gradient(125deg, #ffb4aa 0%, #d02ac2 100%); }
+
+.artwork-3 .artwork-piece {
+  background-image: -moz-linear-gradient(125deg, #a037dc 0%, #53c8ea 100%);
+  background-image: -webkit-linear-gradient(125deg, #a037dc 0%, #53c8ea 100%);
+  background-image: -ms-linear-gradient(125deg, #a037dc 0%, #53c8ea 100%); }
+
+footer {
+  background-image: -moz-linear-gradient(125deg, #ff5b7f 0%, #ffd556 100%);
+  background-image: -webkit-linear-gradient(125deg, #ff5b7f 0%, #ffd556 100%);
+  background-image: -ms-linear-gradient(125deg, #ff5b7f 0%, #ffd556 100%); }

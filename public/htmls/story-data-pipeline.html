@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Stories | Data Science</title>
+	<!-- Style Sheets -->
+    <link href="../styles/main_scss_style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../styles/main_scss_style.scss">
+    <link rel="stylesheet" href="../styles/stories_scss_style.css">
+    <link href="../styles/projects_style.css" rel="stylesheet" type="text/css">
+
+	<!-- Script Files-->
+	<script type="text/javascript" src="../scripts/stories-script.js"></script>
+</head>
+
+<body class="wrapper">
+    <!-- Header -->
+    <header>
+        <!--Site navigation-->
+        <div class="nav float-left">
+			<nav class="site-nav float-left">
+				<ul class="nav-list">
+					<li><a class="nav-link" href="../index.html">Home</a></li>
+					<li><a class="nav-link" href="../htmls/stories.html">Stories</a></li>
+					<li><a class="nav-link" href="../htmls/about.html">About</a></li>
+				</ul>
+			</nav>
+		</div>
+
+    </header>
+
+	<main>
+		<!--intro-->
+		<section class="intro center">
+			<div class="project-intro">
+				<p>Projects Stories</p>
+			</div>
+		</section>
+
+        <!-- Project content-->
+        <!--onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument)
+            .innerHTML);this.remove()"-->
+        <div class="content-div"> 
+            <iframe class="story-content" src="../test/data-science-pipeline.html" frameborder="0" onload="resizeIframe(this)"></iframe>
+        </div>
+
+        <hr class="long-line center">
+	</main>
+
+    <footer>
+		<!--profile pic and biography-->
+		<section class="footer-profile">
+            <div><p>About The Author</p></div>
+			<div class="profile-bio">
+				<article class="bio">
+					<div class="profile"> 
+						<figure>
+							<img class="center" src="../images/profile/portrait-bnw.jpg" width="500px" alt="#">
+						</figure>
+					</div>
+					<div class="biography float-right">
+						<p><a>Mikpongbeho Antoine Vignon</a></p>
+						<hr>
+						<p></p>
+						
+						<p class="float-right more-me"><a>More About Me!</a></p>
+					</div>
+				</article>
+			</div>
+			
+			<hr class="empty-line">
+			
+		<!--Social media--> 
+			<div class="contact-social">
+				<div class="socials">
+					<ul class="footer-social">
+                		<li>
+                    		<a href="#">
+                        		<img class="social-default" src="../images/social/icon-Linkedin.png" width="32px" alt="#">
+                    		</a>
+                		</li>
+                		<li>
+                    		<a href="#">
+                        		<img class="social-default" src="../images/social/icon_Twitter.png" width="32px" alt="#">
+                    		</a>
+                		</li>
+                		<li>
+                    		<a href="#">
+                        		<img class="social-default" src="../images/social/icon_Instagram.png" width="32px" alt="#">
+                    		</a>
+                		</li>
+            		</ul>
+				</div>
+			
+			<!--contact form-->
+				<div class="contact">
+					<p>Contact via email!</p>
+					<hr class="solid">
+					<form class="contact_form" action="contact_me.php">
+						<div class="name">
+							<label for="fname"></label>
+							<input type="text" id="fname" name="firstname" placeholder="Your Name..">
+						</div>
+					
+						<div class="email">
+							<label for="email"></label>
+							<input type="text" id="email" name="email" placeholder="Your Email..">
+						</div>
+					
+						<div class="message">
+							<label for="message"> <hr> </label>
+							<textarea id="message" name="message" placeholder="Enter your message here.." cols="30" rows="10"></textarea>
+						</div>
+						<div class="submit">
+							<input type="submit" value="Send !">
+						</div>
+					
+					</form>
+				</div>
+			</div>
+		</section>
+		
+		<section class="footer-content">
+			<div class="footer-content">
+            	<div class="footer-info">
+                	<p class="footer-credit float-left">Website design by <a href="#">Mikpongbeho Antoine Vignon</a></p>
+                	<p class="footer-legal float-right">&copy; 2021 Mikpongbeho Antoine Vignon. All rights reserved.</p>
+            	</div>
+        	</div>
+		</section>
+		
+	</footer>
+
+</body>
+</html>

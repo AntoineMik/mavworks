@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MAVWORKS</title>
+	<link rel="stylesheet" href="styles/main_scss_style.css">
+	<link rel="stylesheet" href="styles/main_scss_style.scss">
+	
+	<!--script files-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/main-script.js"></script>
+</head>
+
+<body class="wrapper">
+	<!-- Header -->
+	<header>
+<!--		<a href="#" class="site-logo">
+			<img src="#" alt="">
+		</a>-->
+		<!--Site navigation-->
+		<div class="nav float-left">
+			<nav class="site-nav float-left">
+				<ul class="nav-list">
+					<li><a class="nav-link" href="index.html">Home</a></li>
+					<li><a class="nav-link" href="htmls/projects.html">Stories</a></li>
+					<li><a class="nav-link" href="htmls/about.html">About</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<!--mobile navigation-->
+		<div class="mobile float-left">
+			<div class="mobile-view-image" onClick="showMobileMenu()"><img src="images/menu-of-three-lines.svg" alt="" width="auto" height="auto"/>
+			</div>
+			<nav class="mobile-nav float-left" onClick="hideMobileMenu()" id="mobile-nav">
+				<div class="close-icon" onClick="hideMobileMenu()"><img src="images/close-icon.png" alt="" width="auto" height="auto"/>
+				</div>
+				<ul class="nav-list">
+					<li><a class="nav-link" href="index.html">Home</a></li>
+					<li><a class="nav-link" href="htmls/projects.html">Stories</a></li>
+					<li><a class="nav-link" href="htmls/about.html">About</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		
+		<!--main banner-->
+		<div class="main-banner center">
+			<figure class="center">
+				<img src="images/References/sea-water-surface-waves.jpg" alt="#" width="auto" height="auto">
+			</figure>
+			
+			<!--Top logo-->
+			<div class="banner-text centered top">
+				<p class="font-text center">
+					<span>
+						<a href="#">SHOW THE WORK</a>
+					</span>
+				</p>
+			</div>
+			
+			<!--search-->
+			<div class="top-search center bottom">
+				<form action="#">
+					<input type="text" class="search-bar" value="" maxlength="200" autocomplete="off" aria-label="Search..." placeholder="Search..">
+					<button class="search-button" aria-label="Search..." type="submit">
+						<div class="center"> <img src="images/search-1.png" alt="mavworks site search button" width="30px" height="30px"></div>
+					</button>
+				</form>
+				
+			</div>
+			
+		</div>
+
+	</header>
+	
+	<!-- Main Contents -->
+	<main>
+	
+		<!--intro-->
+		<section class="intro center">
+			<div class="intro-text">
+				<p>Design / Art / Computing / Data / AI /  Color / Stories / Data Science / Python / Code </p>
+			</div>
+		</section>
+		
+		<!--Projects showcase-->
+		<section class="projects center">
+			
+			<!--<div class="project-div">-->
+				<article class="project project-1">
+					<div class="project-content">
+						<figure>
+							<figcaption>
+								<h2 class="project-subject">subject 1</h2>
+                        	</figcaption>
+                        	<img src="images/References/spiral-12.jpg" width="auto" height="auto" alt="#">
+						</figure>
+					</div>
+					<div class="project-description">
+						<h2 class="project-title">The Bitten Moon</h2>
+                    	<p>Often expressed purely as light and color, gradients assume tactile forms in these pieces. How would a gradient flow or pulse, and what happens to the objects that find themselves on such alien surfaces?</p>
+                    	<a class="seeMore" href="#" target="_blank">See more</a>
+					</div>
+				</article>
+			<!--</div>-->
+			
+			<hr class="longer-line">
+			
+			<article class="project project-2">
+				<div class="project-content">
+					<figure>
+						<figcaption>
+							<h2 class="project-subject">subject 2</h2>
+                        </figcaption>
+                        <img src="images/References/oasis.jpg" width="auto" height="auto" alt="#">
+					</figure>
+				</div>
+				<div class="project-description">
+					<h2 class="project-title">The Bitten Moon</h2>
+                    <p>Often expressed purely as light and color, gradients assume tactile forms in these pieces. How would a gradient flow or pulse, and what happens to the objects that find themselves on such alien surfaces?</p>
+                    <a class="seeMore-black" href="#" target="_blank">See more</a>
+				</div>
+			</article>
+			
+			<hr class="longer-line">
+			
+			<article class="project project-3">
+				<div class="project-content">
+					<figure>
+						<figcaption>
+							<h2 class="project-subject">subject 3</h2>
+                        </figcaption>
+                        <img src="images/References/the-bitten-moon.jpg" width="auto" height="auto" alt="#">
+					</figure>
+				</div>
+				<div class="project-description">
+					<h2 class="project-title">The Bitten Moon</h2>
+                    <p>Often expressed purely as light and color, gradients assume tactile forms in these pieces. How would a gradient flow or pulse, and what happens to the objects that find themselves on such alien surfaces?</p>
+                    <a class="seeMore" href="#" target="_blank">See more</a>
+				</div>
+			</article>
+			
+			<hr class="longer-line">
+			
+			<article class="project project-4">
+				<div class="project-content">
+					<figure>
+						<figcaption>
+							<h2 class="project-subject">subject 4</h2>
+                        </figcaption>
+                        <img src="images/References/synaptic-strands.jpg" width="auto" height="auto" alt="#">
+					</figure>
+				</div>
+				<div class="project-description">
+					<h2 class="project-title">The Bitten Moon</h2>
+                    <p>Often expressed purely as light and color, gradients assume tactile forms in these pieces. How would a gradient flow or pulse, and what happens to the objects that find themselves on such alien surfaces?</p>
+                    <a class="seeMore-black" href="#" target="_blank">See more</a>
+				</div>
+			</article>
+			
+		</section>	
+		
+		<div>
+			<button class=" all-projects center">
+				<p class="center">
+					<a href="#"> SEE ALL POSTS</a>
+				</p>
+			</button>
+		</div>
+		
+		<hr class="long-line center">
+		<!--<img src="images/deco1.png" width="200" height="200" class="deco1 center">-->
+
+		
+	</main>
+	<!-- End Main Contents -->
+
+	
+	<!-- Footer -->
+	<footer>
+		<!--profile pic and biography-->
+		<section class="footer-profile">
+			
+			<div class="profile-bio">
+				<article class="bio">
+					<div class="profile">
+						<figure>
+							<img class="center" src="images/profile/portrait-bnw.jpg" width="500px" alt="#">
+						</figure>
+					</div>
+					<div class="biography">
+						<p class="bio-name"><a>Mikpongbeho Antoine Vignon</a></p>
+						<hr>
+						<p class="bio-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis laudantium aliquam ullam vero culpa sapiente iusto, ratione repudiandae ad! Aut molestiae suscipit nemo eius, veritatis modi magnam fugit quis iste.</p>
+						<p class="float-right more-me"><a>More About Me!</a></p>
+					</div>
+				</article>
+			</div>
+			
+			<hr class="empty-line">
+			
+		<!--Social media--> 
+			<div class="contact-social">
+				<div class="socials">
+					<ul class="footer-social">
+                		<li>
+                    		<a href="#">
+                        		<img class="social-default" src="images/social/icon-Linkedin.png" width="32px" alt="#">
+                    		</a>
+                		</li>
+                		<li>
+                    		<a href="#">
+                        		<img class="social-default" src="images/social/icon_Twitter.png" width="32px" alt="#">
+                    		</a>
+                		</li>
+                		<li>
+                    		<a href="#">
+                        		<img class="social-default" src="images/social/icon_Instagram.png" width="32px" alt="#">
+                    		</a>
+                		</li>
+            		</ul>
+				</div>
+			
+			<!--contact form-->
+				<div class="contact">
+					<p>Contact via email!</p>
+					<hr class="solid">
+					<form class="contact_form" action="contact_me.php">
+						<div class="name">
+							<label for="fname"></label>
+							<input type="text" id="fname" name="firstname" placeholder="Your Name..">
+						</div>
+					
+						<div class="email">
+							<label for="email"></label>
+							<input type="text" id="email" name="email" placeholder="Your Email..">
+						</div>
+					
+						<div class="message">
+							<label for="message"> <hr> </label>
+							<textarea id="message" name="message" placeholder="Enter your message here.." cols="30" rows="10"></textarea>
+						</div>
+						<div class="submit">
+							<input type="submit" value="Send !">
+						</div>
+					
+					</form>
+				</div>
+			</div>
+		</section>
+		
+		<section class="footer-content">
+			<div class="footer-content">
+            	<div class="footer-info">
+                	<p class="footer-credit float-left">Website design by <a href="htmls/about.html">Mikpongbeho Antoine Vignon</a></p>
+                	<p class="footer-legal float-right">&copy; 2021 Mikpongbeho Antoine Vignon. All rights reserved.</p>
+            	</div>
+        	</div>
+		</section>
+		
+	</footer>
+</body>
+</html>
