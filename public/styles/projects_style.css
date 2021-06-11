@@ -11,3 +11,8 @@
 .intro-project {
     max-height: 5%;
 }
+
+.footer-profile {
+    display: flex;
+    flex-flow: row wrap;
+}
