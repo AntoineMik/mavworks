@@ -6,6 +6,8 @@
 	<title>Untitled Document</title>
 	<!-- TemplateEndEditable -->
 	
+	<!-- TemplateBeginEditable name="head" -->
+	
 	<!--styles files-->
 	<link href="/Templates/styles.scss" rel="stylesheet" type="text/css">
 	<link href="/Templates/styles.css" rel="stylesheet" type="text/css">
@@ -16,7 +18,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script type="text/javascript" src="../scripts/main-script.js"></script>
 	
-	<!-- TemplateBeginEditable name="head" -->
+	
 	<!-- TemplateEndEditable -->
 </head>
 
@@ -28,9 +30,9 @@
 		<div class="nav float-left">
 			<nav class="site-nav float-left">
 				<ul class="nav-list">
-					<li><a class="nav-link" href="index.html">Home</a></li>
-					<li><a class="nav-link" href="htmls/projects.html">Stories</a></li>
-					<li><a class="nav-link" href="htmls/about.html">About</a></li>
+					<li><a class="nav-link" href="../index.html">Home</a></li>
+					<li><a class="nav-link" href="../htmls/projects.html">Stories</a></li>
+					<li><a class="nav-link" href="../htmls/about.html">About</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -43,9 +45,9 @@
 				<div class="close-icon" onClick="hideMobileMenu()"><img src="images/close-icon.png" alt="" width="auto" height="auto"/>
 				</div>
 				<ul class="nav-list">
-					<li><a class="nav-link" href="index.html">Home</a></li>
-					<li><a class="nav-link" href="htmls/projects.html">Stories</a></li>
-					<li><a class="nav-link" href="htmls/about.html">About</a></li>
+					<li><a class="nav-link" href="../index.html">Home</a></li>
+					<li><a class="nav-link" href="../htmls/projects.html">Stories</a></li>
+					<li><a class="nav-link" href="../htmls/about.html">About</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -70,7 +72,7 @@
 				<article class="bio">
 					<div class="profile">
 						<figure>
-							<img class="center" src="/images/profile/portrait-bnw.jpg" width="500px" alt="#">
+							<img class="center" src="../images/profile/portrait-bnw.jpg" width="500px" alt="#">
 						</figure>
 					</div>
 					<div class="biography">
@@ -91,17 +93,17 @@
 					<ul class="footer-social">
                 		<li>
                     		<a href="#">
-                        		<img class="social-default" src="/images/social/icon-Linkedin.png" width="32px" alt="#">
+                        		<img class="social-default" src="../images/social/icon-Linkedin.png" width="32px" alt="#">
                     		</a>
                 		</li>
                 		<li>
                     		<a href="#">
-                        		<img class="social-default" src="/images/social/icon_Twitter.png" width="32px" alt="#">
+                        		<img class="social-default" src="../images/social/icon_Twitter.png" width="32px" alt="#">
                     		</a>
                 		</li>
                 		<li>
                     		<a href="#">
-                        		<img class="social-default" src="/images/social/icon_Instagram.png" width="32px" alt="#">
+                        		<img class="social-default" src="../images/social/icon_Instagram.png" width="32px" alt="#">
                     		</a>
                 		</li>
             		</ul>
