@@ -385,18 +385,23 @@ main {
 	max-height: inherit;
 	text-align: center;
   	color: #fff;
-	padding: 1.65vw 3vw 1.5vw;
+	padding: 1.65vw 2vw 0vw;
 	
 	p {
-		font-size: 1.3vw;
-  		line-height: 2;
+		text-align: left;
+		font-size: 17px;
+  		line-height: 1.95;
 		opacity: .7;
-		width: -moz-fit-content;
-  		width: fit-content;
+		/*width: -moz-fit-content;
+  		width: fit-content;*/
 		padding-left: 1vw;
 		padding-right: 1vw;
-		padding-top: 3vw;
-		padding-bottom: 1vw;
+		padding-top: 1.5vw;
+		padding-bottom: 0.3vw;
+		width: 100%;
+		height: 82%;
+		resize: none;
+		
 	}
 }
 
@@ -415,9 +420,9 @@ main {
 /*	width: -moz-fit-content;
   	width: fit-content;*/
   	font-family: $primary-font;
-  	font-size: 1.45vw;
+  	font-size: 1.25vw;
   	font-weight: 100;
-  	margin-bottom: 1.45vw;
+  	margin-bottom: 0.5vw;
   	letter-spacing: .36vw;
   	text-transform: uppercase;
 	text-align: left;
@@ -425,9 +430,9 @@ main {
 
 .seeMore {
 	width: 50%;
-  	font-size: 1.8vw;
+  	font-size: 1.3vw;
   	display: inline-block;
-  	margin-top: 2.85vw;
+  	margin-top: 0.8vw;
   	padding: 0 2vw 0 .5vw;
   	transition: all .3s;
 	color: #ffffff;
@@ -436,7 +441,7 @@ main {
   	background-image: url("../images/right-arrow-white.png");
   	background-repeat: no-repeat;
   	background-position: 80% 60%;
-  	background-size: 2vw;
+  	background-size: 1.5vw;
 }
 
 .seeMore:hover {
@@ -448,15 +453,15 @@ main {
 	width: 50%;
 	color: $primary-color;
     background-image: url("../images/right-arrow-black.png");
-	font-size: 1.8vw;
+	font-size: 1.3vw;
   	display: inline-block;
-  	margin-top: 2.85vw;
+  	margin-top: 0.5vw;
   	padding: 0 2vw 0 .5vw;
   	transition: all .3s;
   	text-decoration: none;
   	background-repeat: no-repeat;
   	background-position: 80% 60%;
-  	background-size: 2vw;
+  	background-size: 1.5vw;
 }
 
 .seeMore-black:hover {
@@ -848,6 +853,63 @@ $phone-width: 440px;
 				}
 			}
 		}
+		
+		
+	}
+	
+	.project-description {
+	
+		p {
+			font-size: 12px;
+  			line-height: 2;
+			opacity: .7;
+			padding-left: 1vw;
+			padding-right: 1vw;
+			padding-top: .3vw;
+			padding-bottom: 1vw;
+			}
+	}
+
+	.project-subject {
+  		font-size: .85vw;
+  		line-height: 1;
+  		letter-spacing: .04vw;
+		padding-left: 8vw;
+		padding-top: 0.5vw;
+	
+	}
+
+	.project-title {
+  		font-size: 1.45vw;
+  		font-weight: 100;
+  		margin-bottom: .45vw;
+  		letter-spacing: .36vw;
+	}
+
+	.seeMore {
+  		font-size: 1.3vw;
+  		margin-top: .5vw;
+  		padding: 0 2vw 0 .5vw;
+  		background-position: 80% 60%;
+  		background-size: 2vw;
+	}
+
+	.seeMore:hover {
+  		padding: 0 3.25vw 0 .25vw;
+  		background-position: 93% 60%;
+	}
+
+	.seeMore-black {
+	font-size: 1.3vw;
+  	margin-top: .5vw;
+  	padding: 0 2vw 0 .5vw;
+  	background-position: 80% 60%;
+  	background-size: 2vw;
+	}
+
+	.seeMore-black:hover {
+  		padding: 0 3.25vw 0 .25vw;
+  		background-position: 93% 60%;
 	}
 	
 }
@@ -925,6 +987,61 @@ $phone-width: 440px;
 				}
 			}
 		}
+	}
+	
+	.project-description {
+		
+		p {
+			font-size: 11px;
+  			line-height: 2;
+			opacity: .7;
+			padding-left: 1vw;
+			padding-right: 1vw;
+			padding-top: 2vw;
+			padding-bottom: 1.3vw;
+			}
+	}
+
+	.project-subject {
+  		font-size: .85vw;
+  		line-height: 1;
+  		letter-spacing: .04vw;
+		padding-left: 8vw;
+		padding-top: 0.5vw;
+	
+	}
+
+	.project-title {
+  		font-size: 1.45vw;
+  		font-weight: 100;
+  		margin-bottom: .45vw;
+  		letter-spacing: .36vw;
+	}
+
+	.seeMore {
+  		font-size: 1.3vw;
+  		margin-top: .5vw;
+  		padding: 0 2vw 0 .5vw;
+  		background-position: 80% 60%;
+  		background-size: 2vw;
+	}
+
+	.seeMore:hover {
+  		padding: 0 3.25vw 0 .25vw;
+  		background-position: 93% 60%;
+	}
+
+	.seeMore-black {
+	font-size: 1.3vw;
+  	margin-top: .5vw;
+  	padding: 0 2vw 0 .5vw;
+  	background-position: 80% 60%;
+  	background-size: 2vw;
+	}
+
+	.seeMore-black:hover {
+  		padding: 0 3.25vw 0 .25vw;
+  		background-position: 93% 60%;
 	}
 	
 }
